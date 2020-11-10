@@ -122,3 +122,18 @@ ul > li {
   padding: 0 5px;
   color: green;
 }
+.element1{
+  width: 100%;
+  height: 25%;
+  font-size: 30px;
+  color: gray;
+}
+.element1 > span {
+  margin-top: 50px;
+  padding: 15px;
+  line-height: 100px;
+}
+.element2{
+  font-size: 23px;
+  padding: 20px;
+}
