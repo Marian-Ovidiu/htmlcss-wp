@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  width: 1200px;
+  height: 55px;
+  background-color: yellow;
+  margin: auto;
+}
+.container {
+  width: 1200px;
+  margin:  auto;
+  margin: 15px auto 15px;
+  position: relative;
+}
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.float-1 {
+  float: left;
+  position: relative;
+  width: 32%;
+}
+.box1 {
+  height: 300px;
+  background-color: red;
+}
+.box2 {
+  height: 450px;
+  background-color: green;
+  margin-left:24px;
+}
+.box3 {
+  height: 213px;
+  background-color: yellow;
+  float: right;
+}
+.box4 {
+  height: 213px;
+  background-color: yellow;
+  float: right;
+  margin-top:24px;
+}
+footer{
+  width: 1200px;
+  height: 12vh;
+  background-color: #74bbfb;
+  margin: auto;
+}
