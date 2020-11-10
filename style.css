@@ -6,9 +6,13 @@
 
 header {
   width: 1200px;
-  height: 55px;
+  height: 400px;
   background-color: yellow;
   margin: auto;
+}
+.copertina{
+  height: 354px;
+  background-color: red;
 }
 .container {
   width: 1200px;
@@ -22,33 +26,42 @@ header {
   clear: both;
 }
 .float-1 {
-  float: left;
-  position: relative;
-  width: 32%;
+ float: left;
 }
 .box1 {
-  height: 300px;
+  height: 450px;
   background-color: red;
+  width: 18%;
 }
 .box2 {
-  height: 450px;
+  height: 900px;
   background-color: green;
-  margin-left:24px;
+  width: 55%;
+  margin: 0 54px 0 54px;
 }
 .box3 {
-  height: 213px;
+  height: 400px;
   background-color: yellow;
-  float: right;
+  width: 18%;
 }
 .box4 {
-  height: 213px;
+  height: 400px;
   background-color: yellow;
+  margin-top:54px;
+  width: 18%;
   float: right;
-  margin-top:24px;
+}
+.box5 {
+  height: 400px;
+  background-color: yellow;
+  margin:54px 0 54px 0;
+  width: 18%;
+  float: right;
+
 }
 footer{
   width: 1200px;
-  height: 12vh;
+  height: 125px;
   background-color: #74bbfb;
   margin: auto;
 }
