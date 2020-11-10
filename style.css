@@ -3,22 +3,66 @@
   margin: 0;
   padding: 0;
 }
-
+body {
+  background-image: url(img/sfondo.png);
+}
 header {
   width: 1200px;
   height: 400px;
-  background-color: yellow;
   margin: auto;
+  background-color: white;
 }
 .copertina{
-  height: 354px;
-  background-color: red;
+  height: 355px;
+  padding: 15px;
 }
+.copertina-img {
+  height: 100%;
+  width: 100%;
+  background-image: url(img/copertina.png);
+  background-size: ;
+}
+nav {
+  width: 1200px;
+  height: 45px;
+  margin: 0;
+}
+nav > ul {
+  width: 100%;
+  text-align: center;
+  background-color: gray;
+}
+nav > ul > li {
+  margin: auto;
+  display: inline-block;
+  padding: 0 20px;
+  font-size: 25px;
+  line-height: 45px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-variant: small-caps;
+}
+
 .container {
   width: 1200px;
   margin:  auto;
   margin: 15px auto 15px;
   position: relative;
+}
+.colonna {
+  height: 1308px;
+}
+.uno {
+  width: 18%;
+}
+.due{
+  width: 55%;
+  margin: 0 54px 0 54px;
+}
+.tre{
+  width: 18%;
 }
 .clearfix::after {
   content: "";
@@ -31,33 +75,24 @@ header {
 .box1 {
   height: 450px;
   background-color: red;
-  width: 18%;
 }
 .box2 {
-  height: 900px;
+  height: 375px;
   background-color: green;
-  width: 55%;
-  margin: 0 54px 0 54px;
 }
 .box3 {
   height: 400px;
   background-color: yellow;
-  width: 18%;
 }
 .box4 {
   height: 400px;
   background-color: yellow;
   margin-top:54px;
-  width: 18%;
-  float: right;
 }
 .box5 {
   height: 400px;
   background-color: yellow;
-  margin:54px 0 54px 0;
-  width: 18%;
-  float: right;
-
+  margin:50px 0 50px 0;
 }
 footer{
   width: 1200px;
