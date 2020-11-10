@@ -18,14 +18,19 @@ header {
 }
 .copertina-img {
   height: 100%;
-  width: 100%;
   background-image: url(img/copertina.png);
-  background-size: ;
+  text-align: center;
+}
+.titoloImg{
+  height: 75%;
+}
+.sottotitolo{
+  color: white;
+  font-size: 30px
 }
 nav {
   width: 1200px;
   height: 45px;
-  margin: 0;
 }
 nav > ul {
   width: 100%;
@@ -44,12 +49,10 @@ nav > ul > li > a {
   color: white;
   font-variant: small-caps;
 }
-
 .container {
   width: 1200px;
   margin:  auto;
   margin: 15px auto 15px;
-  position: relative;
 }
 .colonna {
   height: 1308px;
@@ -87,18 +90,29 @@ nav > ul > li > a {
 }
 .box4 {
   height: 400px;
-  margin-top:54px;
+  margin:54px 0 54px 0;
 }
 .box5 {
   height: 400px;
-  margin:50px 0 50px 0;
 }
 footer{
   width: 1200px;
-  height: 125px;
-  background-color: #74bbfb;
+  height: 150px;
   margin: auto;
   border-radius: 3%;
+  color: gray;
+  background-color: white;
+}
+.poweredBy {
+  font-size: 20px;
+  border-bottom: 1px solid black;
+  text-align: center;
+}
+.imgContatti{
+  text-align: center;
+  background-image: url(img/instagram-logo.jpg);
+  background-image: url(img/facebook-logo.jpg);
+  background-image: url(img/github-logo.jpg);
 }
 .elemento{
   width: 100%;
@@ -118,18 +132,15 @@ ul {
 }
 ul > li {
   font-size: 19px;
-  margin: 7px 0;
-  padding: 0 5px;
+  margin: 7px 5px;
   color: green;
 }
 .element1{
-  width: 100%;
   height: 25%;
   font-size: 30px;
   color: gray;
 }
 .element1 > span {
-  margin-top: 50px;
   padding: 15px;
   line-height: 100px;
 }
